@@ -84,7 +84,7 @@ fun MainScreen(viewModel: MainViewModel) {
                 items(analyses) { analysis ->
                     Card(
                         modifier = Modifier
-                            -fillMaxWidth()
+                            .fillMaxWidth()
                             .padding(vertical = 4.dp)
                     ) {
                         Column(modifier = Modifier.padding(16.dp)) {
